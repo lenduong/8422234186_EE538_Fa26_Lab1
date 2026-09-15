@@ -399,6 +399,9 @@ int main(){
         for (unsigned int c=0; c<size; c++){
             output_m1 << matrix_C1[r][c] << " ";
         }
+        if(r<size-1){
+            output_m1 << '\n';
+        }
     }
 
 
@@ -406,6 +409,9 @@ int main(){
     for (unsigned int r=0; r<size; r++){
         for (unsigned int c=0; c<size; c++){
             output_m2 << matrix_C2[r][c] << " ";
+        }
+        if(r<size-1){
+            output_m2 << '\n';
         }
     }
 
