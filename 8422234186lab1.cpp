@@ -399,7 +399,6 @@ int main(){
         for (unsigned int c=0; c<size; c++){
             output_m1 << matrix_C1[r][c] << " ";
         }
-        output_m1 << '\n';
     }
 
 
@@ -408,11 +407,10 @@ int main(){
         for (unsigned int c=0; c<size; c++){
             output_m2 << matrix_C2[r][c] << " ";
         }
-        output_m2 << '\n';
     }
 
     // Output DNQ runtime followed by Strassen runtime
-    output_q3 << DNQ_runtime << " " << Strassen_runtime << '\n';
+    output_q3 << DNQ_runtime << " " << Strassen_runtime;
 
     input.close();
     output_m1.close();
