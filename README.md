@@ -5,6 +5,11 @@ Student ID: 8422234186
 Email: lnduong@usc.edu
 ```
 
+Program Summary:
+```
+My code reads two square matrices from `input.txt` and dynamically allocates the arrays needed to store them. If the matrix size is not a power of two, it pads the matrices with zeros so the recursive algorithms can divide them evenly. It then multiplies the matrices using both the divide and conquer method and Strassen’s method and records the runtime of each algorithm. Finally, it writes the two resulting matrices and runtimes to their corresponding output files and deallocates all the memory that was created.
+```
+
 For the power_of_two function, I asked google AI for some methods to 
 find the next integer that's a power of 2 since that's a shape
 requirement for the matrices.
